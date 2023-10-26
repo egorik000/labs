@@ -1,0 +1,69 @@
+.hello, .test {
+    color: rgb(255, 153, 0);
+    font-family: Lobster, cursive;
+    text-align: center;
+}
+.testt, .helloo, .eee {
+    color: rgb(0, 140, 93);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+}
+p[title] {
+    color: rgb(200, 0, 173);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ooo {
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+:link[href] {
+    text-decoration: underline;
+    color: gold;
+}
+:visited[href] {
+    text-decoration: none;
+    color: blue; 
+}
+
+:hover[href] {
+    text-decoration: underline;
+    color: coral;
+}
+.zzz {
+    font-size: 20px;
+}
+.xxx {
+    background-color: red;
+}
+tbody tr:nth-child(odd){
+    background-color: green;
+}
+tbody tr:nth-child(even){
+    background-color: red;
+}
+
+.rrr {
+    width: 35px;
+    height: 35px;
+}
+
+.ttt {
+    width: 35px;
+    height: 35px;
+}
+.social-icons {
+    text-align: center;
+}
+.social-icons li {
+    display: inline-block;
+    list-style-type: none;
+}
+.social-icons li a.p {
+    border-bottom: none;
+}
+.social-icons li img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+
