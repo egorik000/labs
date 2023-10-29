@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js">  </script>
+    <table border="1" cellpadding="2" cellspacing="0" >
+        <tr> 
+            <td onmouseover="this.style.fontWeight='bold'; this.style.color='red'"
+                onmouseout=" this.style.fontWeight='bold'; this.style.fontStyle='italic'; this.style.color='blue'; ">
+            Элемент1</td>
+            <td ondblclick="this.style.color='green'; this.style.fontStyle='italic'; this.style.fontFamily='Times New Roman'">
+            Элемент2</td>
+            <td onclick="this.style.color='black'; this.style.borderStyle='dashed'; this.style.borderColor='red'">
+            Элемент3</td>
+            <td onmouseover="this.style.color='yellow'">
+            Элемент4</td>
+            <td ondblclick="this.style.backgroundColor='red'">
+            Элемент5</td>
+            <td onclick="this.style.fontFamily='italic'">
+            Элемент6</td><br>
+        </tr> 
+    </table><br>
+
+    <button onclick="addNumber(1)">1</button>
+    <button onclick="addNumber(2)">2</button>
+    <button onclick="addNumber(3)">3</button>
+    <button onclick="addNumber(4)">4</button>
+    <button onclick="addNumber(5)">5</button><br>
+    <br>
+    <button onclick="showResult(sum)">result</button>
+    
+    <p onmouseover="this.style.fontSize='30px'"
+        onmouseout="this.style.fontSize=''"
+    
+    >Я, Тарасовец Е.A., учусь работать с JavaScript</p>
+
+</body>
+</html>
